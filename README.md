@@ -24,7 +24,7 @@ This project builds an end-to-end regression pipeline to predict `SalePrice` fro
 - Features include lot size, building type, year built/remodeled, basement/garage details, quality ratings, and neighborhood
 - Target variable: `SalePrice` (USD)
 
-> Dataset not included in this repo due to size — download it from [Kaggle](https://www.kaggle.com/datasets/prevek18/ames-housing-dataset) or the original source above and place it in `data/AmesHousing.csv`.
+
 
 ---
 
@@ -66,11 +66,8 @@ New features created to capture signal not directly present in raw columns:
 
 | Metric | Score |
 |---|---|
-| R² (test set) | *fill in your number* |
-| R² (5-fold CV mean) | *fill in your number* |
-| MAPE | *fill in your number* |
-
-> Replace the above with your actual final numbers once you've run the full pipeline.
+| R²  | *0.9438371658325195* |
+| MAPE | *0.07194089144468307* |
 
 ---
 
