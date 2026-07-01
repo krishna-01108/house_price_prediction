@@ -90,15 +90,10 @@ house-price-prediction/
 │   └── AmesHousing.csv          # not included — see Dataset section
 ├── notebooks/
 │   └── eda_and_modeling.ipynb   # exploratory analysis + experimentation
-├── src/
-│   ├── preprocessing.py         # missing value handling, feature engineering
-│   ├── pipeline.py              # ColumnTransformer + XGBoost pipeline
-│   └── train.py                 # training + evaluation script
 ├── models/
 │   └── xgb_model.pkl            # saved trained model (optional)
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
@@ -119,10 +114,8 @@ pip install -r requirements.txt
 3. Add the dataset
 Download `AmesHousing.csv` from Kaggle and place it in the `data/` folder.
 
-4. Run training
-```bash
-python src/train.py
-```
+4. Run the notebook
+Open `notebooks/eda_and_modeling.ipynb` and run all cells to reproduce the EDA, preprocessing, and model training.
 
 ---
 
